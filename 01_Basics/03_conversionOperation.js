@@ -6,14 +6,18 @@
 
 // console.log(typeof(score))
 // console.log(typeof score)
+// both ways are correct to check the type of variable
 
 // let valueInNumber = Number(score);
 // console.log(typeof valueInNumber)
-// when the value is not a number then it will return NaN
-// console.log(valueInNumber)
+// console.log(valueInNumber)  // 33
 
 // "33" => 33
 // "33"abc => NaN
+// when the value is not a number then it will return NaN
+
+// null => 0
+// undefined => NaN
 // true => 1 ; false => 0
 
 // let isLoggedIn = 1;
@@ -52,8 +56,11 @@ let negValue = -value;
 // console.log(1 + 2 + "2")// if string is in the last then it will add the numbers first and then concatenate them with the string
 
 // console.log(1 - "2")
+// console.log("2" - 3);
 // console.log("1" - 2)
 // console.log("1" * 2)
 // console.log("1" / 2)
 
-console.log(+true)
+// console.log(+true) // 1
+// console.log(+false) // 0
+// console.log(+"") // 0
