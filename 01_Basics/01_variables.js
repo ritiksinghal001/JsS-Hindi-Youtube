@@ -8,6 +8,8 @@ let accountEmail = "ritiksinghal11@gmail.com"
 
 var accountPassword = "1234"
 accountCity = "Jaipur" // we can save space in memory by not declaring a variable, but it is not a good practice to do so.
+// it's kind of an global varibale which means,
+// a variable declared outside a function can usually be accessed inside it, and assigning to it there changes that same variable.
 
 let accountSpace;
 
@@ -21,6 +23,14 @@ console.table([accountPassword, accountCity, accountId, accountEmail, accountSpa
 Prefer not to use var,
 due to functional scope and conditional scope issues, use let and const instead.
 */
+
+var a;
+let b;
+
+console.log(a); // undefined
+console.log(b); // undefined
+
+// But const must be initialized when it’s declared, so const c; is a syntax error.
 
 
 

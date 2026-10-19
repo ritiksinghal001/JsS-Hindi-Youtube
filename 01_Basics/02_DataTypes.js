@@ -1,6 +1,7 @@
 "use strict"; // treat all JS code as newer version
 
 // alert("Hello") // we are using nodejs not browser
+// JavaScript runs in an environment: Browsers and Node.js both run JavaScript, but browsers provide features like alert() and document, while Node.js provides features like file-system access. That’s why alert() works in a browser but not in Node.js.  
 
 // console.log(3+3); console.log() // there is not code readability in this type 
 
